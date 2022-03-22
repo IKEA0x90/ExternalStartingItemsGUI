@@ -1,0 +1,17 @@
+D:\Coding\C#\ExternalStartingItemsGUI\bin\Release\ExternalStartingItemsGUI.exe
+D:\Coding\C#\ExternalStartingItemsGUI\bin\Release\ExternalStartingItemsGUI.pdb
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.bluecontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.greencontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.GUI.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.orangecontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.Properties.Resources.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.profilecontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.purplecontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.redcontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.whitecontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.yellowcontrol.resources
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.csproj.GenerateResource.cache
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.csproj.CoreCompileInputs.cache
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.exe
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.pdb
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.csproj.AssemblyReference.cache
