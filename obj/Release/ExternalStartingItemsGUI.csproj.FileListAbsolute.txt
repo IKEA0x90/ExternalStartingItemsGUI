@@ -15,3 +15,5 @@ D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.cspro
 D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.exe
 D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.pdb
 D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.csproj.AssemblyReference.cache
+D:\Coding\C#\ExternalStartingItemsGUI\bin\Release\ExternalStartingItemsGUI.exe.config
+D:\Coding\C#\ExternalStartingItemsGUI\obj\Release\ExternalStartingItemsGUI.modded.resources

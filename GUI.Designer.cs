@@ -43,6 +43,21 @@ namespace ExternalStartingItemsGUI
             this.colorbutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.profileLabel = new System.Windows.Forms.Label();
+            this.moddedButton = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.BlackCredits = new System.Windows.Forms.Label();
+            this.PurpleCredits = new System.Windows.Forms.Label();
+            this.OrangeCredits = new System.Windows.Forms.Label();
+            this.BlueCredits = new System.Windows.Forms.Label();
+            this.YellowCredits = new System.Windows.Forms.Label();
+            this.RedCredits = new System.Windows.Forms.Label();
+            this.RegularCredits = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // profilebutton
@@ -58,7 +73,7 @@ namespace ExternalStartingItemsGUI
             this.profilebutton.Location = new System.Drawing.Point(855, 911);
             this.profilebutton.Name = "profilebutton";
             this.profilebutton.Size = new System.Drawing.Size(117, 38);
-            this.profilebutton.TabIndex = 9;
+            this.profilebutton.TabIndex = 10;
             this.profilebutton.Tag = "profile";
             this.profilebutton.Text = "Profiles";
             this.profilebutton.UseVisualStyleBackColor = false;
@@ -77,7 +92,7 @@ namespace ExternalStartingItemsGUI
             this.whitebutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.whitebutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.whitebutton.Name = "whitebutton";
-            this.whitebutton.Size = new System.Drawing.Size(117, 38);
+            this.whitebutton.Size = new System.Drawing.Size(114, 38);
             this.whitebutton.TabIndex = 1;
             this.whitebutton.Tag = "white";
             this.whitebutton.Text = "Common";
@@ -92,11 +107,11 @@ namespace ExternalStartingItemsGUI
             this.greenbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.greenbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.greenbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.greenbutton.Location = new System.Drawing.Point(135, 11);
+            this.greenbutton.Location = new System.Drawing.Point(132, 11);
             this.greenbutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.greenbutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.greenbutton.Name = "greenbutton";
-            this.greenbutton.Size = new System.Drawing.Size(117, 38);
+            this.greenbutton.Size = new System.Drawing.Size(114, 38);
             this.greenbutton.TabIndex = 2;
             this.greenbutton.Tag = "green";
             this.greenbutton.Text = "Uncommon";
@@ -111,11 +126,11 @@ namespace ExternalStartingItemsGUI
             this.redbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.redbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.redbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.redbutton.Location = new System.Drawing.Point(258, 11);
+            this.redbutton.Location = new System.Drawing.Point(252, 11);
             this.redbutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.redbutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.redbutton.Name = "redbutton";
-            this.redbutton.Size = new System.Drawing.Size(117, 38);
+            this.redbutton.Size = new System.Drawing.Size(114, 38);
             this.redbutton.TabIndex = 3;
             this.redbutton.Tag = "red";
             this.redbutton.Text = "Legendary";
@@ -131,12 +146,12 @@ namespace ExternalStartingItemsGUI
             this.orangebutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
             this.orangebutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
             this.orangebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.orangebutton.Location = new System.Drawing.Point(855, 11);
+            this.orangebutton.Location = new System.Drawing.Point(729, 12);
             this.orangebutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.orangebutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.orangebutton.Name = "orangebutton";
-            this.orangebutton.Size = new System.Drawing.Size(117, 38);
-            this.orangebutton.TabIndex = 7;
+            this.orangebutton.Size = new System.Drawing.Size(114, 38);
+            this.orangebutton.TabIndex = 8;
             this.orangebutton.Tag = "orange";
             this.orangebutton.Text = "Equipment";
             this.orangebutton.UseVisualStyleBackColor = false;
@@ -150,11 +165,11 @@ namespace ExternalStartingItemsGUI
             this.bluebutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.bluebutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.bluebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bluebutton.Location = new System.Drawing.Point(627, 11);
+            this.bluebutton.Location = new System.Drawing.Point(609, 12);
             this.bluebutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.bluebutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.bluebutton.Name = "bluebutton";
-            this.bluebutton.Size = new System.Drawing.Size(117, 38);
+            this.bluebutton.Size = new System.Drawing.Size(114, 38);
             this.bluebutton.TabIndex = 6;
             this.bluebutton.Tag = "blue";
             this.bluebutton.Text = "Lunar";
@@ -169,11 +184,11 @@ namespace ExternalStartingItemsGUI
             this.yellowbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.yellowbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.yellowbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.yellowbutton.Location = new System.Drawing.Point(381, 11);
+            this.yellowbutton.Location = new System.Drawing.Point(372, 11);
             this.yellowbutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.yellowbutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.yellowbutton.Name = "yellowbutton";
-            this.yellowbutton.Size = new System.Drawing.Size(117, 38);
+            this.yellowbutton.Size = new System.Drawing.Size(114, 38);
             this.yellowbutton.TabIndex = 4;
             this.yellowbutton.Tag = "yellow";
             this.yellowbutton.Text = "Boss";
@@ -188,11 +203,11 @@ namespace ExternalStartingItemsGUI
             this.purplebutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Purple;
             this.purplebutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Purple;
             this.purplebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.purplebutton.Location = new System.Drawing.Point(504, 11);
+            this.purplebutton.Location = new System.Drawing.Point(492, 11);
             this.purplebutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.purplebutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.purplebutton.Name = "purplebutton";
-            this.purplebutton.Size = new System.Drawing.Size(117, 38);
+            this.purplebutton.Size = new System.Drawing.Size(114, 38);
             this.purplebutton.TabIndex = 5;
             this.purplebutton.Tag = "purple";
             this.purplebutton.Text = "Void";
@@ -204,7 +219,7 @@ namespace ExternalStartingItemsGUI
             this.panelpanel.BackColor = System.Drawing.Color.Transparent;
             this.panelpanel.Location = new System.Drawing.Point(12, 55);
             this.panelpanel.Name = "panelpanel";
-            this.panelpanel.Size = new System.Drawing.Size(960, 850);
+            this.panelpanel.Size = new System.Drawing.Size(732, 850);
             this.panelpanel.TabIndex = 10;
             // 
             // quantity
@@ -217,10 +232,11 @@ namespace ExternalStartingItemsGUI
             this.quantity.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
             this.quantity.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.quantity.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.quantity.Location = new System.Drawing.Point(732, 911);
+            this.quantity.Location = new System.Drawing.Point(726, 911);
             this.quantity.Name = "quantity";
             this.quantity.Size = new System.Drawing.Size(117, 38);
-            this.quantity.TabIndex = 8;
+            this.quantity.TabIndex = 9;
+            this.quantity.Tag = "SPECIAL";
             this.quantity.Text = "x1";
             this.quantity.UseVisualStyleBackColor = false;
             this.quantity.MouseUp += new System.Windows.Forms.MouseEventHandler(this.quantity_MouseUp);
@@ -267,21 +283,235 @@ namespace ExternalStartingItemsGUI
             this.profileLabel.TabIndex = 12;
             this.profileLabel.Text = "Default";
             // 
+            // moddedButton
+            // 
+            this.moddedButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.moddedButton.BackColor = System.Drawing.Color.Aqua;
+            this.moddedButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.moddedButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.moddedButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.moddedButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.moddedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.moddedButton.Location = new System.Drawing.Point(849, 12);
+            this.moddedButton.MaximumSize = new System.Drawing.Size(117, 38);
+            this.moddedButton.MinimumSize = new System.Drawing.Size(97, 38);
+            this.moddedButton.Name = "moddedButton";
+            this.moddedButton.Size = new System.Drawing.Size(114, 38);
+            this.moddedButton.TabIndex = 7;
+            this.moddedButton.Tag = "modded";
+            this.moddedButton.Text = "Modded";
+            this.moddedButton.UseVisualStyleBackColor = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(750, 172);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(149, 19);
+            this.label9.TabIndex = 27;
+            this.label9.Tag = "SPECIAL";
+            this.label9.Text = "Black Credits:";
+            this.label9.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.label8.Location = new System.Drawing.Point(750, 153);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(159, 19);
+            this.label8.TabIndex = 26;
+            this.label8.Tag = "SPECIAL";
+            this.label8.Text = "Purple Credits:";
+            this.label8.Visible = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.Blue;
+            this.label7.Location = new System.Drawing.Point(750, 115);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(139, 19);
+            this.label7.TabIndex = 25;
+            this.label7.Tag = "SPECIAL";
+            this.label7.Text = "Blue Credits:";
+            this.label7.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.Yellow;
+            this.label6.Location = new System.Drawing.Point(750, 96);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(159, 19);
+            this.label6.TabIndex = 24;
+            this.label6.Tag = "SPECIAL";
+            this.label6.Text = "Yellow Credits:";
+            this.label6.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(750, 77);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(129, 19);
+            this.label5.TabIndex = 23;
+            this.label5.Tag = "SPECIAL";
+            this.label5.Text = "Red Credits:";
+            this.label5.Visible = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(750, 134);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(159, 19);
+            this.label4.TabIndex = 22;
+            this.label4.Tag = "SPECIAL";
+            this.label4.Text = "Orange Credits:";
+            this.label4.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(750, 58);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(169, 19);
+            this.label3.TabIndex = 21;
+            this.label3.Tag = "SPECIAL";
+            this.label3.Text = "Regular Credits:";
+            this.label3.Visible = false;
+            // 
+            // BlackCredits
+            // 
+            this.BlackCredits.AutoSize = true;
+            this.BlackCredits.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.BlackCredits.Location = new System.Drawing.Point(915, 172);
+            this.BlackCredits.Name = "BlackCredits";
+            this.BlackCredits.Size = new System.Drawing.Size(19, 19);
+            this.BlackCredits.TabIndex = 34;
+            this.BlackCredits.Tag = "SPECIAL";
+            this.BlackCredits.Text = "0";
+            this.BlackCredits.Visible = false;
+            // 
+            // PurpleCredits
+            // 
+            this.PurpleCredits.AutoSize = true;
+            this.PurpleCredits.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.PurpleCredits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.PurpleCredits.Location = new System.Drawing.Point(915, 153);
+            this.PurpleCredits.Name = "PurpleCredits";
+            this.PurpleCredits.Size = new System.Drawing.Size(19, 19);
+            this.PurpleCredits.TabIndex = 33;
+            this.PurpleCredits.Tag = "SPECIAL";
+            this.PurpleCredits.Text = "0";
+            this.PurpleCredits.Visible = false;
+            // 
+            // OrangeCredits
+            // 
+            this.OrangeCredits.AutoSize = true;
+            this.OrangeCredits.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.OrangeCredits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.OrangeCredits.Location = new System.Drawing.Point(915, 134);
+            this.OrangeCredits.Name = "OrangeCredits";
+            this.OrangeCredits.Size = new System.Drawing.Size(19, 19);
+            this.OrangeCredits.TabIndex = 32;
+            this.OrangeCredits.Tag = "SPECIAL";
+            this.OrangeCredits.Text = "0";
+            this.OrangeCredits.Visible = false;
+            // 
+            // BlueCredits
+            // 
+            this.BlueCredits.AutoSize = true;
+            this.BlueCredits.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.BlueCredits.ForeColor = System.Drawing.Color.Blue;
+            this.BlueCredits.Location = new System.Drawing.Point(915, 115);
+            this.BlueCredits.Name = "BlueCredits";
+            this.BlueCredits.Size = new System.Drawing.Size(19, 19);
+            this.BlueCredits.TabIndex = 31;
+            this.BlueCredits.Tag = "SPECIAL";
+            this.BlueCredits.Text = "0";
+            this.BlueCredits.Visible = false;
+            // 
+            // YellowCredits
+            // 
+            this.YellowCredits.AutoSize = true;
+            this.YellowCredits.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.YellowCredits.ForeColor = System.Drawing.Color.Yellow;
+            this.YellowCredits.Location = new System.Drawing.Point(915, 96);
+            this.YellowCredits.Name = "YellowCredits";
+            this.YellowCredits.Size = new System.Drawing.Size(19, 19);
+            this.YellowCredits.TabIndex = 30;
+            this.YellowCredits.Tag = "SPECIAL";
+            this.YellowCredits.Text = "0";
+            this.YellowCredits.Visible = false;
+            // 
+            // RedCredits
+            // 
+            this.RedCredits.AutoSize = true;
+            this.RedCredits.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.RedCredits.ForeColor = System.Drawing.Color.Red;
+            this.RedCredits.Location = new System.Drawing.Point(915, 77);
+            this.RedCredits.Name = "RedCredits";
+            this.RedCredits.Size = new System.Drawing.Size(19, 19);
+            this.RedCredits.TabIndex = 29;
+            this.RedCredits.Tag = "SPECIAL";
+            this.RedCredits.Text = "0";
+            this.RedCredits.Visible = false;
+            // 
+            // RegularCredits
+            // 
+            this.RegularCredits.AutoSize = true;
+            this.RegularCredits.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
+            this.RegularCredits.ForeColor = System.Drawing.Color.White;
+            this.RegularCredits.Location = new System.Drawing.Point(915, 58);
+            this.RegularCredits.Name = "RegularCredits";
+            this.RegularCredits.Size = new System.Drawing.Size(19, 19);
+            this.RegularCredits.TabIndex = 28;
+            this.RegularCredits.Tag = "SPECIAL";
+            this.RegularCredits.Text = "0";
+            this.RegularCredits.Visible = false;
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(984, 961);
+            this.Controls.Add(this.BlackCredits);
+            this.Controls.Add(this.PurpleCredits);
+            this.Controls.Add(this.OrangeCredits);
+            this.Controls.Add(this.BlueCredits);
+            this.Controls.Add(this.YellowCredits);
+            this.Controls.Add(this.RedCredits);
+            this.Controls.Add(this.RegularCredits);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.orangebutton);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.moddedButton);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.bluebutton);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.purplebutton);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.yellowbutton);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.redbutton);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.greenbutton);
             this.Controls.Add(this.profilebutton);
             this.Controls.Add(this.quantity);
-            this.Controls.Add(this.orangebutton);
             this.Controls.Add(this.colorbutton);
-            this.Controls.Add(this.bluebutton);
-            this.Controls.Add(this.purplebutton);
-            this.Controls.Add(this.yellowbutton);
-            this.Controls.Add(this.redbutton);
-            this.Controls.Add(this.greenbutton);
             this.Controls.Add(this.whitebutton);
             this.Controls.Add(this.profileLabel);
             this.Controls.Add(this.label1);
@@ -291,6 +521,7 @@ namespace ExternalStartingItemsGUI
             this.MaximumSize = new System.Drawing.Size(1000, 1000);
             this.Name = "GUI";
             this.Text = "External Starting Items";
+            this.Activated += new System.EventHandler(this.GUI_Activated);
             this.Load += new System.EventHandler(this.GUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -311,6 +542,21 @@ namespace ExternalStartingItemsGUI
         private System.Windows.Forms.Button colorbutton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label profileLabel;
+        private System.Windows.Forms.Button moddedButton;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label BlackCredits;
+        private System.Windows.Forms.Label PurpleCredits;
+        private System.Windows.Forms.Label OrangeCredits;
+        private System.Windows.Forms.Label BlueCredits;
+        private System.Windows.Forms.Label YellowCredits;
+        private System.Windows.Forms.Label RedCredits;
+        private System.Windows.Forms.Label RegularCredits;
     }
 }
 

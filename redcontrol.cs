@@ -27,7 +27,7 @@ namespace ExternalStartingItemsGUI
             {
                 if (control.GetType() == typeof(PictureBox))
                 {
-                    toolTip.SetToolTip(control, file.createToolTip(control.Tag.ToString()));
+                    toolTip.SetToolTip(control, file.createToolTip(control.Tag.ToString(), file.activeProfile.truerougelike));
                 }
             }
         }
@@ -35,7 +35,7 @@ namespace ExternalStartingItemsGUI
         {
             SaveFile file = SaveFile.readFile();
             PictureBox item = sender as PictureBox;
-            toolTip.SetToolTip(item, file.createToolTip(item.Tag.ToString()));
+            toolTip.SetToolTip(item, file.createToolTip(item.Tag.ToString(), file.activeProfile.truerougelike));
         }
     }
 }
