@@ -164,6 +164,7 @@ namespace ExternalStartingItemsGUI
             this.label3.Size = new System.Drawing.Size(149, 19);
             this.label3.TabIndex = 33;
             this.label3.Text = "TrueRougeLike:";
+            this.label3.Visible = false;
             // 
             // disablespawns
             // 

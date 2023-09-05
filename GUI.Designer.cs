@@ -146,7 +146,7 @@ namespace ExternalStartingItemsGUI
             this.orangebutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
             this.orangebutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
             this.orangebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.orangebutton.Location = new System.Drawing.Point(729, 12);
+            this.orangebutton.Location = new System.Drawing.Point(732, 12);
             this.orangebutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.orangebutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.orangebutton.Name = "orangebutton";
@@ -165,7 +165,7 @@ namespace ExternalStartingItemsGUI
             this.bluebutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.bluebutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.bluebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bluebutton.Location = new System.Drawing.Point(609, 12);
+            this.bluebutton.Location = new System.Drawing.Point(612, 11);
             this.bluebutton.MaximumSize = new System.Drawing.Size(117, 38);
             this.bluebutton.MinimumSize = new System.Drawing.Size(97, 38);
             this.bluebutton.Name = "bluebutton";
@@ -292,7 +292,7 @@ namespace ExternalStartingItemsGUI
             this.moddedButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
             this.moddedButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
             this.moddedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.moddedButton.Location = new System.Drawing.Point(849, 12);
+            this.moddedButton.Location = new System.Drawing.Point(852, 12);
             this.moddedButton.MaximumSize = new System.Drawing.Size(117, 38);
             this.moddedButton.MinimumSize = new System.Drawing.Size(97, 38);
             this.moddedButton.Name = "moddedButton";

@@ -115,7 +115,7 @@ namespace ExternalStartingItemsGUI
                 }
                 else
                 {
-                    enablemode.Enabled = true;
+                    //enablemode.Enabled = true;
                     disablespawns.Enabled = false;
                     mode.Enabled = false;
                     label5.Enabled = false;
@@ -130,7 +130,7 @@ namespace ExternalStartingItemsGUI
                     applyb.Enabled = false;
                     resetb.Enabled = false;
 
-                    enablemode.Visible = true;
+                    //enablemode.Visible = true;
                     disablespawns.Visible = false;
                     mode.Visible = false;
                     label5.Visible = false;
