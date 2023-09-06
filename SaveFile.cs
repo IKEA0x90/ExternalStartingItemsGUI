@@ -35,7 +35,11 @@ namespace ExternalStartingItemsGUI
             this.name = name;
             this.number = number;
             this.isActive = isActive;
-            this.mod = "ITEM";
+            if (!isActive)
+            {
+                this.mod = "ITEM";
+            }
+            else this.mod = "EQUIPMENT";
         }
         public Item(string name, int number, bool isActive, String mod)
         {
@@ -133,7 +137,7 @@ namespace ExternalStartingItemsGUI
         public SaveFile() 
         {
             this.ProfileList = new List<ActiveProfile>();
-            this.version = 2.01f;
+            this.version = 2.1f;
         }
 
         public static SaveFile readFile()
@@ -434,7 +438,7 @@ namespace ExternalStartingItemsGUI
         {
             foreach (Item item in this.activeProfile.items)
             {
-                if (item.name == ID && item.mod == "ITEM")
+                if (item.name == ID && (item.mod == "ITEM" || item.mod == "EQUIPMENT"))
                 {
                     return item;
                 }
@@ -471,7 +475,7 @@ namespace ExternalStartingItemsGUI
         {
             foreach (Item item in this.activeProfile.items)
             {
-                if (item.name == ID && item.mod == "ITEM")
+                if (item.name == ID && (item.mod == "ITEM" || item.mod == "EQUIPMENT"))
                 {
                     item.changeNumber(number);
                 }
