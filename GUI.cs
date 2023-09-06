@@ -209,7 +209,7 @@ namespace ExternalStartingItemsGUI
                 }
             }
             profileLabel.Text = file.activeProfile.name;
-            file.version = 2; //UPDATE ON EACH REVISION
+            file.version = 2.01f; //UPDATE ON EACH REVISION
 
             if (file.activeProfile.truerougelike)
             {

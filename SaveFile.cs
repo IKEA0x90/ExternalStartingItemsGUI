@@ -128,12 +128,12 @@ namespace ExternalStartingItemsGUI
     {
         public ActiveProfile activeProfile;
         public List<ActiveProfile> ProfileList;
-        public int version;
+        public float version;
 
         public SaveFile() 
         {
             this.ProfileList = new List<ActiveProfile>();
-            this.version = 2;
+            this.version = 2.01f;
         }
 
         public static SaveFile readFile()
